@@ -1,0 +1,96 @@
+/* Formatações Gerais */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* ------------------------------------------------------------------------------------ */
+
+
+/* Formatação de tag */
+body{
+    background: #1A2451;
+}
+
+hr{
+    background: #FFBD4A;
+}
+
+p{
+    color:white;
+    margin-top: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+p a{
+    color:#FFBD4A;
+}
+
+p a:hover{
+    color:#FFBD4A;
+
+}
+
+h1{
+    color:white;
+    font-family: 'Dancing Script', cursive;
+}
+/* ------------------------------------------------------------------------------------ */
+
+
+/* Formatações por ID */
+
+#cartoes{
+    margin-top: 80px;
+}
+/* ------------------------------------------------------------------------------------ */
+
+
+/* Formatações por classe */
+.imagem-apresentacao{
+    width: 20em;
+    height: 20em;
+}
+
+.imagem-carousel{
+    width: 100px;
+    height: 400px;
+}
+/* ------------------------------------------------------------------------------------ */
+
+
+/* Formatações Bootstrap */
+.navbar-light {
+  background: #1A2451;
+}
+
+.navbar-light .navbar-brand{
+    color:white ;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+}
+
+.navbar-light .navbar-brand:hover{
+    color:white ;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: 1.1em;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #FFBD4A;
+}
+
+.navbar-light .navbar-nav .nav-link:active{
+    color: #FFBD4A;
+  }
+
+/* ------------------------------------------------------------------------------------ */
+
+/* Formatações para testes */
+.teste{
+    border: 1px solid red;
+}
